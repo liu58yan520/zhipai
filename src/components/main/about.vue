@@ -188,23 +188,22 @@
                                 </div>
                             </div> 
                             <div class="service_item">
-                                <img src="static/service1.png" alt="">
-                                <h3>专利代理服务</h3>
+                                <img src="static/service2.png" alt="">
+                                <h3>流程智能托管</h3>
                                 <hr>
                                 <div class="text">
-                                    <p>对于合伙人不能自行撰写的案件，派智提供专业的代理人团队进行撰稿服务。</p>
-                                    <p>年处理案件能力超过1万件。</p>
-                                    <p>标准化业务撰稿要求，全过程质量管理，费用透明</p>
+                                    <p>为合伙人提供知识产权业务的全流程托管。</p>
+                                    <p>专业的流程管理团队，提供专岗专人的流程服务。</p>
+                                    <p>云端案件处理平台，可以提供立案、进度查询、费用查询查询等各项服务。</p>
                                 </div>
                             </div> 
                             <div class="service_item">
-                                <img src="static/service1.png" alt="">
-                                <h3>专利代理服务</h3>
+                                <img src="static/service3.png" alt="">
+                                <h3>合规完善的资质</h3>
                                 <hr>
                                 <div class="text">
-                                    <p>对于合伙人不能自行撰写的案件，派智提供专业的代理人团队进行撰稿服务。</p>
-                                    <p>年处理案件能力超过1万件。</p>
-                                    <p>标准化业务撰稿要求，全过程质量管理，费用透明</p>
+                                    <p>提供国家认证的专利代理正规资质。</p>
+                                    <p>帮助合伙人合规承接业务，告别黑代理。</p>
                                 </div>
                             </div> 
                         </div>
@@ -213,33 +212,33 @@
                         <div class="adv">
                             <div class="adv_item">
                                 <img src="static/adv1.png" alt="">
-                                <h3>greagae</h3>
-                                <p>rgaergaergeargearg</p>
+                                <h3>一站式的服务</h3>
+                                <p>代理人，服务资质，流程管理一步掌握。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv1.png" alt="">
-                                <h3>greagae</h3>
-                                <p>rgaergaergeargearg</p>
+                                <img src="static/adv2.png" alt="">
+                                <h3>拓宽业务范围</h3>
+                                <p>专利、版权、商标，赚钱的业务一项都不能少。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv1.png" alt="">
-                                <h3>greagae</h3>
-                                <p>rgaergaergeargearg</p>
+                                <img src="static/adv3.png" alt="">
+                                <h3>价格优势</h3>
+                                <p>一键对接代理人，拒绝中间商赚差价。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv1.png" alt="">
-                                <h3>greagae</h3>
-                                <p>rgaergaergeargearg</p>
+                                <img src="static/adv4.png" alt="">
+                                <h3>案件实时跟踪</h3>
+                                <p>智能贴身管家，实时提醒案件进度。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv1.png" alt="">
-                                <h3>greagae</h3>
-                                <p>rgaergaergeargearg</p>
+                                <img src="static/adv5.png" alt="">
+                                <h3>高效品质服务</h3>
+                                <p>平台监管，妈妈再也不用担心我弄丢代理人啦。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv1.png" alt="">
-                                <h3>greagae</h3>
-                                <p>rgaergaergeargearg</p>
+                                <img src="static/adv6.png" alt="">
+                                <h3>透明服务</h3>
+                                <p>随时查询账户资金，让每笔支出都有迹可循。</p>
                             </div>
                         </div>
                     </div>

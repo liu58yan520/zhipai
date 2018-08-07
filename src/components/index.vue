@@ -1,14 +1,10 @@
-<style>
 
-</style>
 <template>
 <div class="index">
     <el-container>
-        <el-header style="height:auto">
-            <myHeader></myHeader>
-        </el-header>
-        <el-main><myMain></myMain></el-main>
-        <el-footer>Footer</el-footer>
+        <el-header> <myHeader/></el-header>
+        <el-main><myMain/></el-main>
+        <el-footer><myFooter/></el-footer>
     </el-container>
 </div>
     

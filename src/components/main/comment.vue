@@ -6,10 +6,12 @@
     h2{
         text-align: center;
         font-size: 2.2rem;
+        padding: 0;
     }
     .comment .content{
-        width:1200px;
+        max-width:1200px;
         background: #fff;
+        margin: auto;
         position: relative;
         border-radius: 5px;
         overflow: hidden;
@@ -25,7 +27,7 @@
     .comment .content .right {
         width:70%;
         float: right;
-        
+        box-sizing: border-box;
     }
     .comment .content .right .cards{
         width:40rem;
@@ -104,7 +106,7 @@
     <div class="comment">
         <h2>他们这样说派智</h2>
         <el-row>
-            <el-col :span="14" :offset="5">
+            <el-col :span="18" :offset="3">
                 <div class="content">
                     <div class="left">
                         <el-carousel indicator-position="none" height='360px'>

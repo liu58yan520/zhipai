@@ -26,6 +26,28 @@
         padding: .7rem 3rem;
         font-size: 1.7rem;
     }
+    .item2{
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: 32%;
+        margin: auto;
+        width: 30rem;
+        text-align: center;
+        font-size: 3.2rem;
+    }
+    .item2 a{
+        display: block;
+        color: #fff;
+        margin: auto;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3rem;
+        letter-spacing:2px;
+    }
+    .item2 a:hover{
+        text-decoration: underline;
+    }
     .banner_img{
         width: 1200px;
         display: block;
@@ -45,6 +67,7 @@
         font-size: 1.5rem;
         padding: .3rem 0;
         cursor: pointer;
+        margin-top: 3rem;
     }
 
 </style>
@@ -61,10 +84,13 @@
         </el-col>
         </el-row>
         <el-carousel height="478px">
-                <el-carousel-item v-for="item in 1" :key="item" >
-                    <img src="/static/banner.jpg" class="banner_img">
+                <el-carousel-item v-for="item in 2" :key="item" >
+                    <img class="banner_img" :src=" '/static/banner'+item+'.jpg' " >
                     <div v-if="item==1" class="item1">
                         <button>免费试用</button>
+                    </div>
+                    <div v-if="item==2" class="item2">
+                        <a href="#">免费试用</a>
                     </div>
                     <div class="banner_bottom"></div>
                 </el-carousel-item>

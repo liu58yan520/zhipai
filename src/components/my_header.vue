@@ -42,8 +42,8 @@
 <template>
     <div class="header">
        <el-row class="top1" style="padding:6px ">
-            <el-col :span="6">热线电话：<a class="tel" href="tel:400-1234-567">400-1234-567</a></el-col>
-            <el-col :span="6" :offset="10">
+            <el-col :span="3" :offset="4">热线电话：<a class="tel" href="tel:400-1234-567">400-1234-567</a></el-col>
+            <el-col :span="3" :offset="10">
                 <a href="#">登陆</a>
                 <a href="#">注册</a>
                 <a href="#">关于我们</a>

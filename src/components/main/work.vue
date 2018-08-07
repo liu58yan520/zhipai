@@ -103,43 +103,43 @@
             <div class="content">
                 <div class="work_item">
                     <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <h3>申请专利</h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
                 <div class="work_item">
-                    <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <img src="static/work2.png">
+                    <h3>特殊领域</h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
                 <div class="work_item">
-                    <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <img src="static/work3.png">
+                    <h3>加快审查</h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
                 <div class="work_item">
-                    <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <img src="static/work4.png">
+                    <h3>智能递交</h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
                 <div class="work_item">
-                    <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <img src="static/work5.png">
+                    <h3>挖掘撰写</h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
                 <div class="work_item">
-                    <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <img src="static/work6.png">
+                    <h3>授权担保 </h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
                 <div class="work_item">
-                    <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <img src="static/work7.png">
+                    <h3>作品登记</h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
                 <div class="work_item">
-                    <img src="static/work1.png">
-                    <h3>gaeg</h3>
-                    <p>rgaegear</p>
+                    <img src="static/work8.png">
+                    <h3>加强保护</h3>
+                    <p>包含发明专利，实用新型专利，外观专利的申请。</p>
                 </div>
             </div>
             <div class="bottom">
