@@ -88,7 +88,7 @@
                     <p>专利命名</p>
                 </div>
             </el-col>
-            <el-col :span="4" :push="3">
+            <el-col :span="3" :push="2">
                 <div class="ft_right">
                     <h2>关注派智公众号</h2>
                     <h3>随时掌握最新消息</h3>

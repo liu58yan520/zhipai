@@ -34,6 +34,7 @@
     padding: 0;
     line-height: 1rem;
     margin: 0;
+    font-weight: normal;
 }
 .pros p{
     margin-bottom: 0;
@@ -158,8 +159,8 @@
                         <p>派智平台的具体服务</p>
                     </div>
                     <div class="item"  :class="tap2" @click="tap(2)">
-                        <h3>服务介绍</h3>
-                        <p>派智平台的具体服务</p>
+                        <h3>智享优势</h3>
+                        <p>派智平台的平台优势</p>
                     </div>
                 </div>
             </el-col>

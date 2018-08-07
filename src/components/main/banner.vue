@@ -57,7 +57,7 @@
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 30px;
+        height: 50px;
         background: rgba(0,0,0,.5);
         z-index: 15;
     }

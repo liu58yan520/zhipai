@@ -3,10 +3,10 @@
         background: #F6F7FC;
         padding:3rem 0;
     }
-    h2{
+    .comment h2{
         text-align: center;
         font-size: 2.2rem;
-        padding: 0;
+        padding-bottom: 5rem ;
     }
     .comment .content{
         max-width:1200px;
@@ -14,7 +14,6 @@
         margin: auto;
         position: relative;
         border-radius: 5px;
-        overflow: hidden;
     }
     .comment .content .left{
         width:30%;
@@ -32,7 +31,9 @@
     .comment .content .right .cards{
         width:40rem;
         margin: auto;
-        position: relative;
+        position: absolute;
+        right: 10%;
+        top: -10%
     }
 
     .comment .content .right .cards .item{
@@ -40,9 +41,11 @@
         box-sizing: border-box;
         background: #fff;
         width:30rem;
-        box-shadow:2px 2px 5px #525252;
+        box-shadow:2px 2px 5px #ccc;
         position: absolute;
-        border-radius: 5px;
+        z-index: 5;
+        transition: all 2s;
+        transform-origin: right top;
     }
     .comment .content .right .cards .item h4{
         font-size: 2.2rem;
@@ -73,21 +76,16 @@
         display: block;
         text-align: center;
     }
-    .comment .content .right .cards .item:nth-child(1){
-        top: 0;
-        left: 0;
-        z-index: 1;
+   .comment .content .right .cards .di_item{
+        left: -2rem;
+        top: 2rem;
+        height: 15rem;
+        width:34rem;
+        position: absolute;
+        box-shadow:2px 2px 5px #ccc;
+        background: #fff;
     }
-    .comment .content .right .cards .item:nth-child(2){
-        top: 5px;
-        left: 5px;
-        z-index: 2;
-    }
-    .comment .content .right .cards .item:nth-child(3){
-        top: 10px;
-        left: 10px;
-        z-index: 3;
-    }
+   
     .clear{
         clear: both;
     }
@@ -101,6 +99,8 @@
         transform: scale(2);
     }
  
+ 
+
 </style>
 <template>
     <div class="comment">
@@ -109,35 +109,26 @@
             <el-col :span="18" :offset="3">
                 <div class="content">
                     <div class="left">
-                        <el-carousel indicator-position="none" height='360px'>
-                            <el-carousel-item v-for="item in 1" :key="item">
+                        <el-carousel indicator-position="none" height='360px' @change="card_move" :autoplay="false">
+                            <el-carousel-item v-for="item in 3" :key="item">
+                                <img  src="static/demo.jpg" alt="">
+                                <img  src="static/demo.jpg" alt="">
                                 <img  src="static/demo.jpg" alt="">
                             </el-carousel-item>
                         </el-carousel>
                     </div>
                     <div class="right">
-                        <div class="cards">
-                            <div class="item" :style="{ top:cards_index*cards_pos+'px', left:cards_index*cards_pos+'px',zIndex:cards_index }">
-                                <h4>发明专利</h4>
-                                <h6>2017年3月</h6>
-                                <p>派智平台真正做到了专利服务的一站式服务，他们非常好的利用互联网产品的链接属性将复杂的专利流程管理和业务消化进行了结合统一，让我们拓展知产业务更便捷、更轻松、也更放心。</p>
-                                <a href="#" class="more">了解更多</a>
-                            </div>
-                            <div class="item" :style="{ top:(cards_index+1)*cards_pos+'px',left:(cards_index+1)*cards_pos+'px',zIndex:(cards_index+1) }">
-                                <h4>发明专利</h4>
-                                <h6>2017年3月</h6>
-                                <p>派智平台真正做到了专利服务的一站式服务，他们非常好的利用互联网产品的链接属性将复杂的专利流程管理和业务消化进行了结合统一，让我们拓展知产业务更便捷、更轻松、也更放心。</p>
-                                <a href="#" class="more">了解更多</a>
-                            </div>
-                            <div class="item" :style="{ top:(cards_index+2)*cards_pos+'px',left:(cards_index+2)*cards_pos+'px',zIndex:(cards_index+2) }">
-                                <h4>发明专利</h4>
-                                <h6>2017年3月</h6>
-                                <p>派智平台真正做到了专利服务的一站式服务，他们非常好的利用互联网产品的链接属性将复杂的专利流程管理和业务消化进行了结合统一，让我们拓展知产业务更便捷、更轻松、也更放心。</p>
+                        <div class="cards" ref="cards">
+                             <div class="di_item"></div>
+                            <div class="item" @click="card_move" v-for="(v,i) in cards" :key="i">
+                                <h4>{{v.title}}</h4>
+                                <h6>{{v.date}}</h6>
+                                <p>{{v.text}}</p>
                                 <a href="#" class="more">了解更多</a>
                             </div>
                         </div>
                         <div class="pinfen">
-                            <el-rate v-model="pinfen"  :colors="['#24A1F5', '#24A1F5', '#24A1F5']" ></el-rate>
+                            <el-rate v-model="pinfen" disabled :colors="['#24A1F5', '#24A1F5', '#24A1F5']" ></el-rate>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -150,10 +141,39 @@
 export default {
     data(){
         return{
-            cards_index:0,
-            cards_pos:15,
             pinfen:5,
-            card_aceive_index:3
+            aceive_card_ami:0,  //正在进行动画的item
+            cards:[
+                {
+                    title:"发明专利",
+                    date:'2017年3月',
+                    text:'派智平台真正做到了专利服务的一站式服务，他们非常好的利用互联网产品的链接属性将复杂的专利流程管理和业务消化进行了结合统一，让我们拓展知产业务更便捷、更轻松、也更放心。'
+                },{
+                    title:"1",
+                    date:'1',
+                    text:'2'
+                },
+                {
+                    title:"22",
+                    date:'2',
+                    text:'22'
+                }
+            ]
+        }
+    },
+    methods:{
+        card_move:function(){
+            let card=this.$refs.cards.getElementsByClassName('item');
+            let index=card.length-1
+            if(!index) return ;
+            card[index].style.transform='rotate(152deg)'
+            card[index].style.opacity=0
+            let new_data=card[index]
+            setTimeout(()=>{
+                this.cards.splice(index,1);
+            },2000)
+
+      
         }
     }
 }
