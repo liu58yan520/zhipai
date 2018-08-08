@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 26 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="5.97837838" width="41.8486486" height="49.3216216"></rect>
+        <rect id="path-2" x="0" y="5.97837838" width="41.8486486" height="49.3216216"></rect>
+        <path d="M4.95675676,2.98918919 L22.8918919,2.98918919 L22.8918919,9.20945946 C22.8918919,10.314029 21.9964614,11.2094595 20.8918919,11.2094595 L6.95675676,11.2094595 C5.85218726,11.2094595 4.95675676,10.314029 4.95675676,9.20945946 L4.95675676,2.98918919 Z" id="path-3"></path>
+        <circle id="path-4" cx="11.2094595" cy="11.2094595" r="11.2094595"></circle>
+        <circle id="path-5" cx="11.2094595" cy="11.2094595" r="11.2094595"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="派智1改" transform="translate(-915.000000, -1175.000000)">
+            <rect id="Rectangle-5-Copy" x="760" y="872" width="400" height="544"></rect>
+            <g id="Group-63" transform="translate(915.000000, 1175.000000)">
+                <rect id="Rectangle-26-Copy-4" x="0" y="0" width="90" height="90"></rect>
+                <g id="Group-22" transform="translate(19.000000, 17.000000)">
+                    <g id="Group-19">
+                        <g id="Rectangle-5">
+                            <use fill="#92DFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#24A1F5" stroke-width="2" x="-1" y="4.97837838" width="43.8486486" height="51.3216216"></rect>
+                        </g>
+                        <g id="Rectangle-5">
+                            <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#FFFFFF" stroke-width="2" x="1" y="6.97837838" width="39.8486486" height="47.3216216"></rect>
+                        </g>
+                        <g id="Group-18" transform="translate(7.000000, 0.000000)">
+                            <polygon id="Star" fill="#24A1F5" points="13.8773566 35.3097973 8.82597784 37.9654643 9.79070535 32.3406713 5.70405405 28.3571708 11.3516672 27.5365246 13.8773566 22.4189189 16.403046 27.5365246 22.0506592 28.3571708 17.9640079 32.3406713 18.9287354 37.9654643"></polygon>
+                            <rect id="Rectangle-6" stroke="#FFFFFF" stroke-width="2" x="1.47297297" y="14.4513514" width="24.9027027" height="31.6283784"></rect>
+                            <g id="Rectangle-68">
+                                <use fill="#24A1F5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <path stroke="#FFFFFF" stroke-width="2" d="M3.95675676,1.98918919 L23.8918919,1.98918919 L23.8918919,9.20945946 C23.8918919,10.8663137 22.5487461,12.2094595 20.8918919,12.2094595 L6.95675676,12.2094595 C5.29990251,12.2094595 3.95675676,10.8663137 3.95675676,9.20945946 L3.95675676,1.98918919 Z"></path>
+                            </g>
+                            <rect id="Rectangle-7" fill="#EBF3F9" x="9.44054054" y="0" width="9.71486486" height="2.98918919"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(28.397297, 32.881081)">
+                        <g id="Group-20">
+                            <g id="Oval-5">
+                                <use fill="#92DFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <circle stroke="#24A1F5" stroke-width="2" cx="11.2094595" cy="11.2094595" r="12.2094595"></circle>
+                            </g>
+                            <g id="Oval-5">
+                                <use fill="#24A1F5" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <circle stroke="#FFFFFF" stroke-width="2" cx="11.2094595" cy="11.2094595" r="10.2094595"></circle>
+                            </g>
+                        </g>
+                        <polyline id="Path-46" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" points="11.2094595 2.98918919 11.2094595 11.5191666 17.8894738 11.5191666"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

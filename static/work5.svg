@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 26 Copy 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="272"></rect>
+        <rect id="path-3" x="4.86903305" y="5.95104039" width="46.5263158" height="45.9853121"></rect>
+        <rect id="path-4" x="0" y="0" width="46.5263158" height="45.9853121"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="派智1改" transform="translate(-475.000000, -2653.000000)">
+            <g id="Group-89" transform="translate(0.000000, 2721.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-16"></g>
+            </g>
+            <rect id="Rectangle-10-Copy-4" x="360" y="2620" width="300" height="210"></rect>
+            <g id="Group-55" transform="translate(475.000000, 2653.000000)">
+                <rect id="Rectangle-26-Copy-11" x="0" y="0" width="70" height="70"></rect>
+                <g id="Group-12" transform="translate(9.000000, 9.000000)">
+                    <g id="Rectangle-20">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#24A1F5" stroke-width="2" x="3.86903305" y="4.95104039" width="48.5263158" height="47.9853121"></rect>
+                    </g>
+                    <g id="Rectangle-20-Copy">
+                        <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#24A1F5" stroke-width="2" x="-1" y="-1" width="48.5263158" height="47.9853121"></rect>
+                    </g>
+                    <g id="Group-10" transform="translate(23.799377, 24.174732) rotate(-316.000000) translate(-23.799377, -24.174732) translate(20.299377, 7.674732)">
+                        <g id="Group-34">
+                            <path d="M2.70501836,0 L3.7870257,-4.4408921e-16 C5.28096609,-7.18521607e-16 6.49204406,1.21107797 6.49204406,2.70501836 L6.49204406,4.41003672 C6.49204406,4.96232147 6.04432881,5.41003672 5.49204406,5.41003672 L1,5.41003672 C0.44771525,5.41003672 5.58162771e-16,4.96232147 0,4.41003672 L0,2.70501836 C-1.82954931e-16,1.21107797 1.21107797,2.74432397e-16 2.70501836,0 Z" id="Rectangle-21" fill="#FFAE19" transform="translate(3.246022, 2.705018) rotate(-360.000000) translate(-3.246022, -2.705018) "></path>
+                            <rect id="Rectangle-21-Copy" fill="#FFFFFF" transform="translate(3.246022, 16.230110) rotate(-360.000000) translate(-3.246022, -16.230110) " x="0" y="6.49204406" width="6.49204406" height="19.4761322" rx="1"></rect>
+                            <ellipse id="Oval" fill="#FFFFFF" transform="translate(3.516524, 29.755202) rotate(-360.000000) translate(-3.516524, -29.755202) " cx="3.51652387" cy="29.755202" rx="2.43451652" ry="2.70501836"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

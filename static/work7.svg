@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 26 Copy 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="272"></rect>
+        <rect id="path-3" x="0" y="0" width="53.3235294" height="42.875"></rect>
+        <ellipse id="path-4" cx="12.3054299" cy="12.25" rx="4.10180995" ry="4.08333333"></ellipse>
+        <rect id="path-5" x="0.41647722" y="0.611655071" width="8.43140185" height="7.10118606"></rect>
+        <rect id="path-6" x="0.564065628" y="9.25019967" width="8.43140185" height="25.5642698"></rect>
+        <ellipse id="path-7" cx="4.64244949" cy="40.9367831" rx="3.16177569" ry="3.55059303"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="派智1改" transform="translate(-1075.000000, -2653.000000)">
+            <g id="Group-89" transform="translate(0.000000, 2721.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-16"></g>
+            </g>
+            <rect id="Rectangle-10-Copy-6" x="960" y="2620" width="300" height="210"></rect>
+            <g id="Group-57" transform="translate(1075.000000, 2653.000000)">
+                <rect id="Rectangle-26-Copy-15" x="0" y="0" width="70" height="70"></rect>
+                <g id="Group-5" transform="translate(0.000000, 11.000000)">
+                    <g id="Group-35" transform="translate(0.000000, 6.125000)">
+                        <g id="Rectangle-9">
+                            <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#24A1F5" stroke-width="2" x="1" y="1" width="51.3235294" height="40.875"></rect>
+                        </g>
+                        <path d="M1.02545249,21.8717043 C9.48632695,25.3760986 19.3729293,25.3760986 30.6852595,21.8717043 C41.9975898,18.36731 49.2018622,18.5830549 52.2980769,22.5189388" id="Path-12" stroke="#24A1F5" stroke-width="2" stroke-linejoin="bevel"></path>
+                        <g id="Oval-6">
+                            <use fill="#FFAE19" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <ellipse stroke="#24A1F5" stroke-width="2" cx="12.3054299" cy="12.25" rx="5.10180995" ry="5.08333333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-34" transform="translate(50.417641, 20.383697) rotate(43.000000) translate(-50.417641, -20.383697) translate(45.803105, -2.074636)">
+                        <g id="Rectangle-21" stroke-linecap="round" transform="translate(4.632178, 4.162248) rotate(-360.000000) translate(-4.632178, -4.162248) ">
+                            <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#FFFFFF" stroke-width="2" x="-0.58352278" y="-0.388344929" width="10.4314019" height="9.10118606"></rect>
+                        </g>
+                        <g id="Rectangle-21-Copy" stroke-linecap="round" transform="translate(4.779767, 22.032335) rotate(-360.000000) translate(-4.779767, -22.032335) ">
+                            <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#FFFFFF" stroke-width="2" x="-0.435934372" y="8.25019967" width="10.4314019" height="27.5642698"></rect>
+                        </g>
+                        <g id="Oval" transform="translate(4.642449, 40.936783) rotate(-360.000000) translate(-4.642449, -40.936783) ">
+                            <use fill="#20BEFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <ellipse stroke="#FFFFFF" stroke-width="2" cx="4.64244949" cy="40.9367831" rx="4.16177569" ry="4.55059303"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

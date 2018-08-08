@@ -1,10 +1,11 @@
 <style scoped>
     .banner{
         margin: 3rem auto;
+        padding-top: 3rem;
     }
-    .el-carousel__item{
+    /* .el-carousel__item{
         background-color: #101241;
-    }
+    } */
     .item1{
         position: absolute;
         left: 0;
@@ -73,7 +74,7 @@
 </style>
 <template>
     <div class="banner">
-        <el-row>
+        <!-- <el-row>
         <el-col :span="16" :offset="4">
             <ul class="nav">
                 <li>菜单菜单</li>
@@ -82,9 +83,9 @@
                 <li>菜单菜单</li>
             </ul>
         </el-col>
-        </el-row>
-        <el-carousel height="478px">
-                <el-carousel-item v-for="item in 2" :key="item" >
+        </el-row> -->
+        <el-carousel height="478px" @change="banner_move">
+                <el-carousel-item v-for="item in 2" :key="item"  >
                     <img class="banner_img" :src=" '/static/banner'+item+'.jpg' " >
                     <div v-if="item==1" class="item1">
                         <button>免费试用</button>
@@ -97,3 +98,25 @@
         </el-carousel>
     </div>
 </template>
+<script>
+export default {
+    data(){
+        return {
+            banner_index:1
+        }
+    },
+    methods:{
+        banner_move:function(index){
+            let color=''
+            if(index)
+                color="#6861FF"
+            else
+                color='#101241'
+
+                document.querySelectorAll('.el-carousel__item')[index].style.background=color
+            
+
+        }
+    }
+}
+</script>

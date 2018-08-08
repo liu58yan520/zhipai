@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 26 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="6.29963506" cy="6.29963506" r="6.29963506"></circle>
+        <circle id="path-2" cx="6.29963506" cy="6.29963506" r="6.29963506"></circle>
+        <circle id="path-3" cx="6.29963506" cy="6.29963506" r="6.29963506"></circle>
+        <circle id="path-4" cx="6.29963506" cy="6.29963506" r="6.29963506"></circle>
+        <circle id="path-5" cx="6.29963506" cy="6.29963506" r="6.29963506"></circle>
+        <circle id="path-6" cx="6.29963506" cy="6.29963506" r="6.29963506"></circle>
+        <path d="M31.1542871,3.80789525 C32.3208519,15.0136631 31.973023,22.3149753 30.1108002,25.7118319 C27.3352895,30.7746051 19.6723907,36.180265 15.9497417,37.5106475 C12.1558658,36.180265 4.49296707,30.7746051 1.71745637,25.7118319 C-0.144766438,22.3149753 -0.492595411,15.0136631 0.673969453,3.80789525 C3.1204715,4.50912725 5.74782436,4.44521928 8.55602804,3.61617135 C10.8736721,2.93194819 13.3145008,1.72655774 15.8785142,0 C21.6204761,3.81856398 26.6886577,5.0878624 31.1542871,3.80789525 Z" id="path-7"></path>
+        <path d="M31.1542871,3.80789525 C32.3208519,15.0136631 31.973023,22.3149753 30.1108002,25.7118319 C27.3352895,30.7746051 19.6723907,36.180265 15.9497417,37.5106475 C12.1558658,36.180265 4.49296707,30.7746051 1.71745637,25.7118319 C-0.144766438,22.3149753 -0.492595411,15.0136631 0.673969453,3.80789525 C3.1204715,4.50912725 5.74782436,4.44521928 8.55602804,3.61617135 C10.8736721,2.93194819 13.3145008,1.72655774 15.8785142,0 C21.6204761,3.81856398 26.6886577,5.0878624 31.1542871,3.80789525 Z" id="path-8"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="派智1改" transform="translate(-515.000000, -903.000000)">
+            <rect id="Rectangle-5" x="360" y="870" width="400" height="544"></rect>
+            <rect id="Rectangle-5" x="360" y="870" width="400" height="272"></rect>
+            <g id="Group-59" transform="translate(515.000000, 903.000000)">
+                <rect id="Rectangle-26-Copy" x="0" y="0" width="90" height="90"></rect>
+                <g id="Group-17" transform="translate(18.000000, 17.000000)">
+                    <polyline id="Path-45" stroke="#2FADFA" stroke-width="2" points="6 32 6 22 15 22"></polyline>
+                    <g id="Group-16" transform="translate(0.000000, 33.000000)">
+                        <g id="Oval-4">
+                            <use fill="#92DFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <circle stroke="#2FADFA" stroke-width="2" cx="6.29963506" cy="6.29963506" r="7.29963506"></circle>
+                        </g>
+                        <g id="Oval-4">
+                            <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <circle stroke="#FFFFFF" stroke-width="2" cx="6.29963506" cy="6.29963506" r="5.29963506"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-16-Copy" transform="translate(12.000000, 15.000000)">
+                        <g id="Oval-4">
+                            <use fill="#92DFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <circle stroke="#2FADFA" stroke-width="2" cx="6.29963506" cy="6.29963506" r="7.29963506"></circle>
+                        </g>
+                        <g id="Oval-4">
+                            <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <circle stroke="#FFFFFF" stroke-width="3" cx="6.29963506" cy="6.29963506" r="4.79963506"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-16-Copy-2" transform="translate(33.000000, 0.000000)">
+                        <g id="Oval-4">
+                            <use fill="#92DFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <circle stroke="#2FADFA" stroke-width="2" cx="6.29963506" cy="6.29963506" r="7.29963506"></circle>
+                        </g>
+                        <g id="Oval-4">
+                            <use fill="#2FADFA" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <circle stroke="#FFFFFF" stroke-width="2" cx="6.29963506" cy="6.29963506" r="5.29963506"></circle>
+                        </g>
+                    </g>
+                    <g id="Group-15" transform="translate(23.000000, 18.000000)">
+                        <g id="Combined-Shape">
+                            <use fill="#92DFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <path stroke="#2FADFA" stroke-width="2" d="M32.1489119,3.70435086 C33.3362245,15.1094169 32.9814913,22.555656 30.9876745,26.1925514 C28.3939354,30.9237575 20.9648838,36.7803002 16.2862722,38.4523201 L15.9529041,38.5714576 L15.6188316,38.4543098 C10.895861,36.7981255 3.44525124,30.943695 0.840581989,26.1925514 C-1.15323481,22.555656 -1.50796798,15.1094169 -0.320655381,3.70435086 L-0.197145725,2.51794403 L0.949501091,2.84660325 C3.20611672,3.4934088 5.64065185,3.43419094 8.27288564,2.65709347 C10.4858856,2.00376371 12.8360626,0.843141145 15.3199643,-0.829470922 L15.8750432,-1.20325043 L16.4322693,-0.832679615 C21.956256,2.84092483 26.7364321,4.03390234 30.8787554,2.84660325 L32.0254023,2.51794403 L32.1489119,3.70435086 Z"></path>
+                        </g>
+                        <g id="Combined-Shape-Copy-4">
+                            <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <path stroke="#FFFFFF" stroke-width="2" d="M30.2738053,5.04566767 C25.942392,5.88002255 21.1553016,4.58018074 15.8818177,1.19664016 C13.4380203,2.78287763 11.0913962,3.91033909 8.83917045,4.57524923 C6.28683992,5.32875737 3.85448071,5.48797918 1.55446784,5.04549667 C0.54816376,15.4107038 0.92387279,22.1840515 2.59433076,25.2311123 C4.88755848,29.4141594 11.6429357,34.7832714 15.9465698,36.4438424 C20.2135023,34.7683631 26.9503617,29.396532 29.2339258,25.2311123 C30.9043746,22.1840682 31.2800886,15.4107783 30.2738053,5.04566767 Z"></path>
+                        </g>
+                    </g>
+                    <polyline id="Path-47" stroke="#2FADFA" stroke-width="2" stroke-linecap="round" transform="translate(38.500000, 33.500000) rotate(-330.000000) translate(-38.500000, -33.500000) " points="33 42 44 42 44 25"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

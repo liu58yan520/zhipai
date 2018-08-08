@@ -19,10 +19,11 @@
 }
 .tel img{
     float: left;
+    width:3rem;
 }
 .tel strong{
-    font-size: 3.2rem;
-    padding: .5rem 0 0  6rem;
+    font-size: 2.3rem;
+    padding: .5rem 0 0  4rem;
     display: block;
     font-weight: normal;
     color: #fff;
@@ -30,6 +31,7 @@
 .info {
     clear: both;
     font-size: 1.4rem;
+    color:#FFFFFF;
 }
 .info span{
     color: #AEAEAE;
@@ -47,7 +49,7 @@
 }
 .ft_right h2{
     color: #fff;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     padding: 0;
     margin: 0;
 }
@@ -63,7 +65,7 @@
             <el-col :span="6" :offset="3">
                 <div class="tel">
                     <img src="static/tel2.png" alt="">
-                    <strong>400-123-4567</strong>
+                    <strong><a href="tel:0511-85946949-802">0511-85946949-802</a></strong>
                 </div>
                 <div class="info">
                     <p>镇江众邦科技有限公司</p>
@@ -72,14 +74,14 @@
                     <p>客服QQ：12345678 <span>（工作日：9：00～22：00）</span></p>
                 </div>
             </el-col>
-            <el-col :span="1" :offset="2">
+            <el-col :span="3" :offset="1">
                 <div class="ft_nav">
                     <h3>产品</h3>
                     <p>派智</p>
                     <p>炫版权</p>
                 </div>
             </el-col>
-            <el-col :span="1" :offset="2">
+            <el-col :span="3" :offset="1">
                 <div class="ft_nav">
                     <h3>服务</h3>
                     <p>专利申请</p>
@@ -88,7 +90,7 @@
                     <p>专利命名</p>
                 </div>
             </el-col>
-            <el-col :span="3" :push="2">
+            <el-col :span="3" :push="1">
                 <div class="ft_right">
                     <h2>关注派智公众号</h2>
                     <h3>随时掌握最新消息</h3>

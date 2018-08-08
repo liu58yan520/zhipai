@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 26 Copy 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="39" height="42"></rect>
+        <ellipse id="path-2" cx="11.0872436" cy="10.5314654" rx="11.0872436" ry="10.5314654"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="派智1改" transform="translate(-1075.000000, -2443.000000)">
+            <rect id="Rectangle-10-Copy-2" x="960" y="2410" width="300" height="210"></rect>
+            <g id="Group-53" transform="translate(1075.000000, 2443.000000)">
+                <rect id="Rectangle-26-Copy-13" x="0" y="0" width="70" height="70"></rect>
+                <g id="Group-45" transform="translate(1.000000, 13.000000)">
+                    <g id="Group-41" transform="translate(21.000000, 0.000000)">
+                        <g id="Group-27">
+                            <g id="Rectangle-12">
+                                <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#2FADFA" stroke-width="2" x="1" y="1" width="37" height="40"></rect>
+                            </g>
+                            <g id="Group-26" transform="translate(21.000000, 19.000000)">
+                                <g id="Oval-7">
+                                    <use fill="#EBF3F9" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    <ellipse stroke="#2FADFA" stroke-width="2" cx="11.0872436" cy="10.5314654" rx="10.0872436" ry="9.53146538"></ellipse>
+                                </g>
+                                <path d="M19.0042284,16.9929582 L26.7430729,24.3438721" id="Path-14" stroke="#2FADFA" stroke-width="2" stroke-linecap="round"></path>
+                            </g>
+                        </g>
+                        <path d="M8,12 L29.4843185,12" id="Path-18" stroke="#FFAE19" stroke-width="2"></path>
+                        <path d="M8,23 L22,23" id="Path-18-Copy" stroke="#2FADFA" stroke-width="2"></path>
+                        <path d="M8,34 L19,34" id="Path-18-Copy-2" stroke="#2FADFA" stroke-width="2"></path>
+                    </g>
+                    <g id="Group-43" transform="translate(0.000000, 5.000000)" stroke="#2FADFA" stroke-width="2">
+                        <path d="M0,1 L16.6270599,1" id="Path-19"></path>
+                        <path d="M0,25 L16.6270599,25" id="Path-19-Copy-2"></path>
+                        <path d="M10,13 L26.6270599,13" id="Path-19-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

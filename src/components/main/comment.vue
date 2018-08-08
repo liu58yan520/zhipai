@@ -111,9 +111,7 @@
                     <div class="left">
                         <el-carousel indicator-position="none" height='360px' @change="card_move" :autoplay="false">
                             <el-carousel-item v-for="item in 3" :key="item">
-                                <img  src="static/demo.jpg" alt="">
-                                <img  src="static/demo.jpg" alt="">
-                                <img  src="static/demo.jpg" alt="">
+                                <img  src="static/pinjia1.jpg" alt="">
                             </el-carousel-item>
                         </el-carousel>
                     </div>

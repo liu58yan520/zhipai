@@ -42,8 +42,8 @@
 <template>
     <div class="header">
        <el-row class="top1" style="padding:6px ">
-            <el-col :span="3" :offset="4">热线电话：<a class="tel" href="tel:0511-85946949-802">0511-85946949-802</a></el-col>
-            <el-col :span="3" :offset="10">
+            <el-col :span="5" :offset="3">热线电话：<a class="tel" href="tel:0511-85946949-802">0511-85946949-802</a></el-col>
+            <el-col :span="5" :offset="8">
                 <a href="#">登陆</a>
                 <a href="#">注册</a>
                 <a href="#">关于我们</a>

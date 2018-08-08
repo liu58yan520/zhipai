@@ -42,20 +42,46 @@
 }
 .content{
     margin: 2rem auto;
+    max-width: 1100px;
 }
 .contact{
-    position: absolute;
+    position: fixed;
     right: 100px;
-    top:-10px;
+    top:30%;
+    z-index: 99;
 }
-.contact .contact_alert{
+.contact .contact_tel{
     position: absolute;
-    top: 5px;
+    top:120px;
     right: 50px;
+    display: none;
+}
+.contact .contact_wx{
+    position: absolute;
+    top:80px;
+    right: 60px;
+    display: none;
+}
+.contact li:nth-child(2):hover .contact_wx{
+    display: block;
+}
+.contact li:nth-child(3):hover .contact_tel{
+    display: block;
 }
 .contact a{
     display: block;
     cursor: pointer;
+    background: #24A1F5;
+    width: 50px;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.contact a:hover{
+    background: #0062A4;
+}
+.contact a img{
+    width: 100%;
 }
 .adv,.service{
     text-align: center;
@@ -92,7 +118,8 @@
 }
 .service .service_item p{
     padding-right: 6rem;
-    color: #666;
+    color: #888;
+    font-size: 14px;
 }
 .service .service_item::after{
     content: "";
@@ -108,7 +135,7 @@
 }
 .adv_item{
     width: 33.33%;
-    padding-bottom: 15px;
+    padding: 2rem 0 15px;
     position: relative;
 }
 .adv_item h3{
@@ -118,9 +145,10 @@
     padding: .5rem 0;
 }
 .adv_item p{
-    font-size: 1.8rem;
-    color: #666;
+    font-size: 14px;
+    color: #888;
 }
+
 .adv_item::after{
     content: "";
     display: block;
@@ -152,13 +180,13 @@
 <template>
     <div class="about">
         <el-row>
-            <el-col :span="8" :offset="8">
+            <el-col :span="14" :offset="5">
                 <div class="pros">
                     <div class="item" :class="tap1" @click="tap(1)">
                         <h3>服务介绍</h3>
                         <p>派智平台的具体服务</p>
                     </div>
-                    <div class="item"  :class="tap2" @click="tap(2)">
+                    <div class="item"  :class="tap2" @click="tap(2)" >
                         <h3>智享优势</h3>
                         <p>派智平台的平台优势</p>
                     </div>
@@ -166,20 +194,20 @@
             </el-col>
         </el-row>
         <el-row>
-            <el-col :span="16" :offset="4">
+          
                 <div class="content">
                     <div class="contact">
                         <ul>
-                            <li><a href="#"><img src="static/qq.png"></a></li>
-                            <li><a href="http://baidu.com"><img src="static/wx.png"></a></li>
-                            <li><a href="#"><img src="static/tel.png"></a></li>
+                            <li><a href="http://wpa.qq.com/msgrd?v=3&uin=790928026&site=qq&menu=yes"><img src="static/qq.svg"></a></li>
+                            <li><a href="#"><img src="static/wx.svg"></a> <img src="static/ewm.png" class="contact_wx"></li>
+                            <li><a href="#"><img src="static/tel.svg"></a><img src="static/contact_tel.png" class="contact_tel"></li>
                         </ul>
-                        <img src="static/contact_alert.png" class="contact_alert">
+                        
                     </div>
                     <div v-if="tap1=='active'">
                         <div class="service">
                             <div class="service_item">
-                                <img src="static/service1.png" alt="">
+                                <img src="static/service1.svg" alt="">
                                 <h3>专利代理服务</h3>
                                 <hr>
                                 <div class="text">
@@ -189,7 +217,7 @@
                                 </div>
                             </div> 
                             <div class="service_item">
-                                <img src="static/service2.png" alt="">
+                                <img src="static/service2.svg" alt="">
                                 <h3>流程智能托管</h3>
                                 <hr>
                                 <div class="text">
@@ -199,7 +227,7 @@
                                 </div>
                             </div> 
                             <div class="service_item">
-                                <img src="static/service3.png" alt="">
+                                <img src="static/service3.svg" alt="">
                                 <h3>合规完善的资质</h3>
                                 <hr>
                                 <div class="text">
@@ -212,32 +240,32 @@
                     <div v-if="tap2=='active'">
                         <div class="adv">
                             <div class="adv_item">
-                                <img src="static/adv1.png" alt="">
+                                <img src="static/adv1.svg" alt="">
                                 <h3>一站式的服务</h3>
                                 <p>代理人，服务资质，流程管理一步掌握。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv2.png" alt="">
+                                <img src="static/adv2.svg" alt="">
                                 <h3>拓宽业务范围</h3>
                                 <p>专利、版权、商标，赚钱的业务一项都不能少。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv3.png" alt="">
+                                <img src="static/adv3.svg" alt="">
                                 <h3>价格优势</h3>
                                 <p>一键对接代理人，拒绝中间商赚差价。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv4.png" alt="">
+                                <img src="static/adv4.svg" alt="">
                                 <h3>案件实时跟踪</h3>
                                 <p>智能贴身管家，实时提醒案件进度。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv5.png" alt="">
+                                <img src="static/adv5.svg" alt="">
                                 <h3>高效品质服务</h3>
                                 <p>平台监管，妈妈再也不用担心我弄丢代理人啦。</p>
                             </div>
                             <div class="adv_item">
-                                <img src="static/adv6.png" alt="">
+                                <img src="static/adv6.svg" alt="">
                                 <h3>透明服务</h3>
                                 <p>随时查询账户资金，让每笔支出都有迹可循。</p>
                             </div>
@@ -245,7 +273,7 @@
                     </div>
 
                 </div>
-            </el-col>
+         
         </el-row>
     </div>
 </template>
@@ -260,9 +288,13 @@
     methods: {
       tap(index){
           if(index=='1'){
+              document.querySelectorAll('.about .pros .item h3')[0].style.color="#24A1F5"
+              document.querySelectorAll('.about .pros .item h3')[1].style.color="#000"
               this.tap1='active'
               this.tap2=''
           }else{
+              document.querySelectorAll('.about .pros .item h3')[1].style.color="#24A1F5"
+              document.querySelectorAll('.about .pros .item h3')[0].style.color="#000"
              this.tap2='active'
              this.tap1=''   
           }
