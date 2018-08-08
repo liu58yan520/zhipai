@@ -29,7 +29,7 @@
 }
 
 .pros h3{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #333;
     padding: 0;
     line-height: 1rem;
@@ -39,6 +39,7 @@
 .pros p{
     margin-bottom: 0;
     font-size: 1.1rem;
+    padding: 10px 0 15px;
 }
 .content{
     margin: 2rem auto;
@@ -61,6 +62,15 @@
     top:80px;
     right: 60px;
     display: none;
+}
+.contact .contact_qq{
+    position: absolute;
+    top:30px;
+    right: 50px;
+    display: none;
+}
+.contact li:nth-child(1):hover .contact_qq{
+    display: block;
 }
 .contact li:nth-child(2):hover .contact_wx{
     display: block;
@@ -198,9 +208,9 @@
                 <div class="content">
                     <div class="contact">
                         <ul>
-                            <li><a href="http://wpa.qq.com/msgrd?v=3&uin=790928026&site=qq&menu=yes"><img src="static/qq.svg"></a></li>
+                            <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=790928026&site=qq&menu=yes"><img src="static/qq.svg"></a><img src="static/contact_qq.svg" class="contact_qq"></li>
                             <li><a href="#"><img src="static/wx.svg"></a> <img src="static/ewm.png" class="contact_wx"></li>
-                            <li><a href="#"><img src="static/tel.svg"></a><img src="static/contact_tel.png" class="contact_tel"></li>
+                            <li><a href="#"><img src="static/tel.svg"></a><img src="static/contact_tel.svg" class="contact_tel"></li>
                         </ul>
                         
                     </div>

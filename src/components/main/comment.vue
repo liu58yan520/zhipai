@@ -9,14 +9,16 @@
         padding-bottom: 5rem ;
     }
     .comment .content{
-        max-width:1200px;
+        max-width:1090px;
+        height: 324px;
         background: #fff;
         margin: auto;
         position: relative;
         border-radius: 5px;
     }
     .comment .content .left{
-        width:30%;
+        width:427px;
+        height:100% ;
         float: left;
     }
     .comment .content .left img{
@@ -24,7 +26,7 @@
         display: block;
     }
     .comment .content .right {
-        width:70%;
+        width:663px;
         float: right;
         box-sizing: border-box;
     }
@@ -32,7 +34,7 @@
         width:40rem;
         margin: auto;
         position: absolute;
-        right: 10%;
+        right: 2.5%;
         top: -10%
     }
 
@@ -91,12 +93,17 @@
     }
     .pinfen{
         position: absolute;
-        right: 30rem;
+        right:15.5%;
         margin: auto;
         bottom: 30px;
         z-index: 5;
         width:15rem;
         transform: scale(2);
+    }
+    .pinjia_right{
+        position: absolute;
+        right: 8px;
+        bottom: 25px;
     }
  
  
@@ -128,6 +135,7 @@
                         <div class="pinfen">
                             <el-rate v-model="pinfen" disabled :colors="['#24A1F5', '#24A1F5', '#24A1F5']" ></el-rate>
                         </div>
+                        <img class="pinjia_right" src="static/pinjia_right.png" alt="">
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -147,20 +155,21 @@ export default {
                     date:'2017年3月',
                     text:'派智平台真正做到了专利服务的一站式服务，他们非常好的利用互联网产品的链接属性将复杂的专利流程管理和业务消化进行了结合统一，让我们拓展知产业务更便捷、更轻松、也更放心。'
                 },{
-                    title:"1",
-                    date:'1',
-                    text:'2'
+                    title:"实用新型",
+                    date:'2017年8月',
+                    text:'合作过多家知产服务机构，派智的信息安全管控、业务专一，让我更放心把客户交到他们手中，互相信任是我们和派智之间最大的合作共识。'
                 },
                 {
-                    title:"22",
-                    date:'2',
-                    text:'22'
+                    title:"外观设计",
+                    date:'2017年12月',
+                    text:'派智以其专业、细致的服务和积极的服务态度，在相关知识产权服务上，为我们提供了有力的支持，特别是去中间商服务的特性让我们以更低的成本享受到了品质化的服务。'
                 }
             ]
         }
     },
     methods:{
-        card_move:function(){
+        card_move:function(a){
+            if(a==0) return ;
             let card=this.$refs.cards.getElementsByClassName('item');
             let index=card.length-1
             if(!index) return ;
@@ -170,6 +179,7 @@ export default {
             setTimeout(()=>{
                 this.cards.splice(index,1);
             },2000)
+           
 
       
         }
