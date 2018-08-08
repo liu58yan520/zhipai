@@ -1,9 +1,15 @@
 <style scoped>
-
     .map{
         background: #F6F7FC;  
         padding-top: 30px;
         position: relative;
+    }
+    .map h2{
+        font-weight: normal;
+        text-align: center;
+        font-size:3rem;
+        padding: 0 0 2rem; 
+        margin: 0;
     }
     .map_img{
         max-width: 1000px;
@@ -56,11 +62,13 @@
         padding: 0 1rem;
         font-size: 1rem;
     }
+
 </style>
 <template>
     <div class="map">
+        <h2>服务承诺</h2>
         <el-row>
-            <el-col :span="10" :offset="7"><div class="map_img"> <img src="static/map.png"></div></el-col>
+            <el-col :span="10" :offset="6"><div class="map_img"> <img src="static/map.svg"></div></el-col>
             <div id="card">
                 <ul>
                     <li>
@@ -68,7 +76,7 @@
                         <p v-show="card_index==1">派智在全国拥有多处服务地点，可随时为您服务。</p>
                     </li>
                     <li>
-                        <button  @click="card_index=2" class="card_btn2">业行禁止</button>
+                        <button  @click="card_index=2" class="card_btn2">竞业禁止</button>
                         <p v-show="card_index==2">平台承诺不直接开展业务<br>客户属地绑定，产生的所有业务均属于合伙人。</p>
                     </li>
                     <li>

@@ -2,6 +2,7 @@
 body,html,.el-header,.el-main,.el-footer{
   padding:0;
   margin: 0;
+  font-family: -apple-system, "PingFangSC",'Microsoft YaHei',BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #333;
   font-size: 62.5%;
   background: #fff;
@@ -27,7 +28,6 @@ ul,ol{
 
 export default {
   name: 'App'
-
 }
 </script>
 

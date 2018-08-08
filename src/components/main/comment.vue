@@ -62,11 +62,13 @@
         font-weight: normal;
         padding: 0;
         margin: 0;
+        font-size: 1.6rem;
     }
     .comment .content .right .cards .item p{
         color: #999;
         height:7rem;
         letter-spacing:1px;
+        font-size: 1.2rem;
     }
     .comment .content .right .cards .item .more{
         text-decoration: none;
@@ -77,6 +79,7 @@
         margin: auto;
         display: block;
         text-align: center;
+        font-size: 1.2rem;
     }
    .comment .content .right .cards .di_item{
         left: -2rem;
@@ -118,7 +121,7 @@
                     <div class="left">
                         <el-carousel indicator-position="none" height='360px' @change="card_move" :autoplay="false">
                             <el-carousel-item v-for="item in 3" :key="item">
-                                <img  src="static/pinjia1.jpg" alt="">
+                                <img  :src=" 'static/pinjia'+item+'.jpg'" alt="">
                             </el-carousel-item>
                         </el-carousel>
                     </div>
@@ -151,16 +154,16 @@ export default {
             aceive_card_ami:0,  //正在进行动画的item
             cards:[
                 {
-                    title:"发明专利",
+                    title:"交广投资",
                     date:'2017年3月',
                     text:'派智平台真正做到了专利服务的一站式服务，他们非常好的利用互联网产品的链接属性将复杂的专利流程管理和业务消化进行了结合统一，让我们拓展知产业务更便捷、更轻松、也更放心。'
                 },{
-                    title:"实用新型",
+                    title:"江苏鸿剑",
                     date:'2017年8月',
                     text:'合作过多家知产服务机构，派智的信息安全管控、业务专一，让我更放心把客户交到他们手中，互相信任是我们和派智之间最大的合作共识。'
                 },
                 {
-                    title:"外观设计",
+                    title:"吉林优步",
                     date:'2017年12月',
                     text:'派智以其专业、细致的服务和积极的服务态度，在相关知识产权服务上，为我们提供了有力的支持，特别是去中间商服务的特性让我们以更低的成本享受到了品质化的服务。'
                 }

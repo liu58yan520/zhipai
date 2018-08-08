@@ -1,14 +1,22 @@
 <style scoped>
-    .top1 {
+ 
+    .top {
         text-align: center;
-        padding: 10px 0;
+        
         background: red;
-        margin: 0;
         padding: 0;
         background: #F5F5F5;
         font-size: 1rem;
+        margin: auto;
     }
-    .top1 a{
+    .top .center{
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        padding: 12px 0;
+        justify-content: space-between;
+    }
+    .top a{
         margin-left: 8px;
         color: #333;
         font-size: 1rem;
@@ -16,16 +24,16 @@
     a:hover{
         color:#FFAE19;
         }
-    .top1 .tel{
+    .top .tel{
         color: #24A1F5;
         font-size: 1.29rem;
     }
     #logo{
-        height: 8rem;
+        max-width: 1200px;
+        margin: 15px auto;
     }
     #logo img{
-        height: 100%;
-        width: auto;
+        width: 400px;
     }
     .el-menu--horizontal{
         border:0;
@@ -41,17 +49,17 @@
 
 <template>
     <div class="header">
-       <el-row class="top1" style="padding:6px ">
-            <el-col :span="5" :offset="3">热线电话：<a class="tel" href="tel:0511-85946949-802">0511-85946949-802</a></el-col>
-            <el-col :span="5" :offset="8">
-                <a href="#">登陆</a>
-                <a href="#">注册</a>
-                <a href="#">关于我们</a>
-            </el-col>
-        </el-row>
-        <el-row>
-            <el-col :span="4" :offset="4"><div id="logo"><img src="/static/logo.jpg" alt=""></div></el-col>
-        </el-row>
+        <div class="top">
+            <div class="center">
+                <div class="left">热线电话：<a class="tel" href="tel:0511-85946949-802">0511-85946949-802</a></div>
+                <div class="rig">
+                    <a href="#">登陆</a>
+                    <a href="#">注册</a>
+                    <a href="#">关于我们</a>
+                </div>
+            </div>
+        </div>
+        <div id="logo"><img src="/static/logo.svg" alt=""></div>
     </div>
 </template>
 <script>

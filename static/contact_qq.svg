@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="234px" height="112px" viewBox="0 0 234 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="234px" height="88px" viewBox="0 0 234 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>Combined Shape Copy 5</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M4,2 L206,2 L206,82 L4,82 L4,2 Z M4,82 L206,82 L206,106 L4,106 L4,82 Z M230,15 L206,28 L206,2 L230,15 Z" id="path-1"></path>
-        <filter x="-3.1%" y="-4.8%" width="106.2%" height="113.5%" filterUnits="objectBoundingBox" id="filter-2">
+        <path d="M206,2 L230,15 L206,28 L206,82 L4,82 L4,2 L206,2 Z" id="path-1"></path>
+        <filter x="-3.1%" y="-6.2%" width="106.2%" height="117.5%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
@@ -27,11 +27,10 @@
             <text id="联系qq:">
                 <tspan x="0" y="13">联系qq:</tspan>
             </text>
-            <text id="790928026">
-                <tspan x="64" y="13">790928026</tspan>
+            <text id="2096345456">
+                <tspan x="58" y="13">2096345456</tspan>
             </text>
         </g>
-        <path d="M3.71679688,82.1035156 L205.716797,82.1035156" id="Path-29" stroke="#EEEEEE"></path>
         <text id="点击立即咨询" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#24A1F5">
             <tspan x="76" y="98">点击立即咨询</tspan>
         </text>

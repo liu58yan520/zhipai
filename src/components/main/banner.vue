@@ -1,11 +1,8 @@
 <style scoped>
     .banner{
-        margin: 3rem auto;
-        padding-top: 3rem;
+        margin: 0 auto 3rem;
     }
-    /* .el-carousel__item{
-        background-color: #101241;
-    } */
+
     .item1{
         position: absolute;
         left: 0;

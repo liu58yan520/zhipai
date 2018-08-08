@@ -7,27 +7,40 @@
     font-size: 2rem;
     color:#999;
     border-bottom: 1px solid #eee;
+    text-align: center;
+    max-width: 1200px;
 }
 .pros::after{
     content: " ";
     display: block;
     position: absolute;
     left: 0; right: 0;
-    top: 0rem;
+    top: 0;
     margin: auto;
     width: 1px;
-    height: 4rem;
+    height: 5.5rem;
     background: #eee;
 }
 .item{
     cursor: pointer;
     padding-bottom: 15px;
-   
-}
-.item.active{
-     border-bottom: 4px solid #24A1F5;
+    position: relative;
 }
 
+/* .item::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:0;
+    height: 3px;
+    background: #24A1F5;
+}
+.item.active::after{
+    transition: width 1s;
+    width:100%;
+} */
 .pros h3{
     font-size: 2.5rem;
     color: #333;
@@ -47,7 +60,7 @@
 }
 .contact{
     position: fixed;
-    right: 100px;
+    right: 20px;
     top:30%;
     z-index: 99;
 }
@@ -102,21 +115,22 @@
 
 .service{
     text-align: left;
+    padding: 20px 0;
 }
 .service hr{
-    height: 2px;
+    height: 1px;
     background: #ddd;
     margin: 0;
     border:0;
     padding: 0;
-    width:50%;
+    width:80%;
 }
 .service .service_item{
     width:30%;
     position: relative;
 }
 .service h3{
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #333;
     text-decoration: none;
     font-weight: 500;
@@ -127,7 +141,7 @@
     display: block;
 }
 .service .service_item p{
-    padding-right: 6rem;
+    padding-right: 1.5rem;
     color: #888;
     font-size: 14px;
 }
@@ -138,7 +152,7 @@
     right: 0;
     top: 0;
     width:1px;
-    height: 70%;
+    height: 100%;
 }
 .service .service_item:last-child::after{
     content: none;
@@ -185,6 +199,8 @@
 .adv_item:nth-child(n+4)::before{
     content:none;
 }
+
+
 </style>
 
 <template>
@@ -201,6 +217,7 @@
                         <p>派智平台的平台优势</p>
                     </div>
                 </div>
+                <div class="heng"><i></i></div>
             </el-col>
         </el-row>
         <el-row>
@@ -208,7 +225,7 @@
                 <div class="content">
                     <div class="contact">
                         <ul>
-                            <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=790928026&site=qq&menu=yes"><img src="static/qq.svg"></a><img src="static/contact_qq.svg" class="contact_qq"></li>
+                            <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2096345456&site=qq&menu=yes"><img src="static/qq.svg"></a><img src="static/contact_qq.svg" class="contact_qq"></li>
                             <li><a href="#"><img src="static/wx.svg"></a> <img src="static/ewm.png" class="contact_wx"></li>
                             <li><a href="#"><img src="static/tel.svg"></a><img src="static/contact_tel.svg" class="contact_tel"></li>
                         </ul>

@@ -71,12 +71,12 @@ h2{
         <el-row>
             
                 <div class="flex_bottom">
-                    <div class="item"> <img src="static/x1.png" alt=""> <p>极速响应</p></div>
-                    <div class="item"> <img src="static/x2.png" alt=""> <p>专属服务</p></div>
-                    <div class="item"> <img src="static/x3.png" alt=""> <p>售后保障</p></div>
-                    <div class="item"> <img src="static/x4.png" alt=""> <p>隐私保护</p></div>
-                    <div class="item"> <img src="static/x5.png" alt=""> <p>加快办理</p></div>
-                    <div class="item"> <img src="static/x6.png" alt=""> <p>在线客服</p></div>
+                    <div class="item"> <img src="static/x1.png" alt=""> <p>在线客服</p></div>
+                    <div class="item"> <img src="static/x2.png" alt=""> <p>加快办理</p></div>
+                    <div class="item"> <img src="static/x3.png" alt=""> <p>隐私保护</p></div>
+                    <div class="item"> <img src="static/x4.png" alt=""> <p>售后保障</p></div>
+                    <div class="item"> <img src="static/x5.png" alt=""> <p>专属服务</p></div>
+                    <div class="item"> <img src="static/x6.png" alt=""> <p>极速响应</p></div>
                 </div>
           
         </el-row>
