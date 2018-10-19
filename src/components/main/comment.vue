@@ -172,16 +172,19 @@ export default {
     },
     methods:{
         card_move:function(a){
-            if(a==0) return ;
             let card=this.$refs.cards.getElementsByClassName('item');
-            let index=card.length-1
-            if(!index) return ;
-            card[index].style.transform='rotate(152deg)'
-            card[index].style.opacity=0
-            let new_data=card[index]
-            setTimeout(()=>{
-                this.cards.splice(index,1);
-            },2000)
+            let count=card.length-1
+            let b=a+1;
+
+            card[b].style.transform='rotate(152deg)'
+            card[b].style.opacity=0
+            card[a].style.transform='rotate(-152deg)'
+            card[a].style.opacity=1
+            
+
+            // setTimeout(()=>{
+            //     this.cards.splice(index,1);
+            // },2000)
            
 
       
